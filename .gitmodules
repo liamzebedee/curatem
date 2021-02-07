@@ -1,0 +1,12 @@
+[submodule "curatem-contracts"]
+	path = curatem-contracts
+	url = https://github.com/liamzebedee/curatem-contracts/
+[submodule "curatem-subgraph"]
+	path = curatem-subgraph
+	url = https://github.com/liamzebedee/curatem-subgraph/
+[submodule "curatem-frontend"]
+	path = curatem-frontend
+	url = https://github.com/liamzebedee/curatem-frontend
+[submodule "graph-node"]
+	path = graph-node
+	url = git@github.com:graphprotocol/graph-node
