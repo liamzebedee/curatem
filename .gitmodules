@@ -10,3 +10,6 @@
 [submodule "graph-node"]
 	path = graph-node
 	url = git@github.com:graphprotocol/graph-node
+[submodule "omen-subgraph"]
+	path = omen-subgraph
+	url = https://github.com/protofire/omen-subgraph
