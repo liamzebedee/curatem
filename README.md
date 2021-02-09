@@ -29,7 +29,7 @@ Prediction markets for spam mitigation.
     cd graph-node/docker
     docker-compose up
     ```
- 
+
  5. Deploy the omen-subgraph contracts and subgraph. 
 
     ```sh
@@ -40,8 +40,8 @@ Prediction markets for spam mitigation.
 
     yarn codegen && yarn build && yarn deploy-local
     ```
-  
-  6. Deploy the curatem contracts.
+
+ 6. Deploy the curatem contracts.
 
     ```sh
     cd curatem-contracts/
@@ -49,8 +49,8 @@ Prediction markets for spam mitigation.
     yarn
     yarn deploy
     ```
-  
-  7. Deploy the curatem subgraph.
+
+ 7. Deploy the curatem subgraph.
 
     ```sh
     cd curatem-subgraph/
@@ -60,8 +60,8 @@ Prediction markets for spam mitigation.
 
     yarn codegen && yarn build && yarn deploy-local
     ```
-  
-  8. Run the dApp.
+
+ 8. Run the dApp.
 
     ```sh
     cd curatem-frontend/
