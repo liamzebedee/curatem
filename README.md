@@ -35,11 +35,22 @@ Prediction markets for spam mitigation.
     ```sh
     cd omen-subgraph/
     
+    yarn migrate
     # Do this on 1st run.
     yarn create-local
 
     yarn codegen && yarn build && yarn deploy-local
     ```
+ 
+ 6. Deploy the Balancer contracts.
+
+   ```sh
+   cd balancer-core/
+   # You may need to run `nvm use v10` in order to deploy with Truffle.
+   # See: https://github.com/trufflesuite/truffle/issues/3008
+   yarn
+   yarn truffle migrate --reset --network development
+   ```
 
  6. Deploy the curatem contracts.
 
